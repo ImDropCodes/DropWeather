@@ -40,11 +40,11 @@ window.addEventListener("load",()=>{
 
                 // click event for coonverting temperature from F to C
                 tempSelection.addEventListener('click',()=>{
-                    if(tempSpan.textContent === "F"){
-                        tempSpan.textContent = "C";
+                    if(tempSpan.textContent === "° F"){
+                        tempSpan.textContent = "° C";
                         temparatureDegree.textContent = Math.floor(celsius);
                     }else{
-                        tempSpan.textContent = "F";
+                        tempSpan.textContent = "° F";
                         temparatureDegree.textContent = temperature;
                     }
                 });
