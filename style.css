@@ -16,8 +16,8 @@ body{
 }
 .location,
 .temp{
-    height: 30vh;
-    width: 50%;
+    height: 60vh;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,9 +31,15 @@ body{
     cursor: pointer;
 }
 .degree-section span{
-    margin: 10px;
+    margin: 15px;
     font-size: 60px;
 }
 .degree-section h2{
     font-size: 80px;
+}
+.location-timezone{
+    font-size: 40px;
+}
+.temp-disc{
+    font-size: 50px;
 }
